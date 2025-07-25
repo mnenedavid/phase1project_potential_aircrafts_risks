@@ -1,4 +1,4 @@
-# Phase 1 Project Aircrafts Potential Risks
+# Phase 1 Project Aircrafts Risks Analysis
 ![Aircrafts Risk Analysis](./images/arb-2025-aviation-risks-stage.webp)
 
 ## Project Overview
@@ -43,6 +43,7 @@ I shall analyse and use the data to make actionable insights to aid in the aircr
 **COLUMN RISK ANALYSIS:**
 - Injury.Severity
 - Aircraft.damage
+- Total.Fatal.Injuries
 - Total.Serious.Injuries
 - Total.Minor.Injuries
 - Total.Uninjured
@@ -53,20 +54,23 @@ I shall analyse and use the data to make actionable insights to aid in the aircr
 ### Visualizations
 
 #### 1. Aircraft make survival rate
-A bar chart showing the number of incidents categorized by the calculated survival rate.
+A bar chart showing the aircraft make categorized by the calculated survival rate.
 ![Aircraft makes survival rate](./images/make_survival_rate.png)
 #### 2. Top Five Aircraft Makes Model
 A horizontal bar chart identifying make/model with the highest number of safety score.
-![Aircraft makes survival rate](./images/make_model_saftey_score.png)
-#### 3. Weather Condition Impact
+![Top Five Aircraft Makes Model](./images/make_model_saftey_score.png)
+#### 3. Top Five Aircraft Category/Purpose
+A horizontal bar chart identifying category/purpose with the highest number of safety score.
+![Top Five Aircraft Category/Purpose](./images/category_purpose_flight.png)
+#### 4. Weather Condition Impact
 A horizontal bar graph of the safety score relation to the two weather conditions, VMC (Visual Meteorological Conditions) vs IMC (Instrument Meteorological Conditions).
-![Aircraft makes survival rate](./images/weather_conditions.png)
+![Weather Condition Impact](./images/weather_conditions.png)
 ## Conclusion
 
 ### Summary of Conclusions
 
-1. **Low Risk Aircraft Makes**: Certain makes (e.g., Boeing and Aviat Aircraft Inc) have a higher saftey score, hence lower risk.
-2. **Top Aircraft Category/Purpose of flight**: Airplane categories and personal/business  purpose of flights has the highest saftey score, hence lower risk.
+1. **Low Risk Aircraft Makes**: Certain makes (e.g., Boeing and Aviat Aircraft Inc) have a higher safety score, hence lower risk.
+2. **Top Aircraft Category/Purpose of flight**: Airplane categories and personal/business  purpose of flights has the highest safety score, hence lower risk.
 3. **Weather Impact**: Most accidents occurred in VMC conditions, indicating pilot error or mechanical failure may be greater contributors than weather alone.
 
 ### Recommendation
