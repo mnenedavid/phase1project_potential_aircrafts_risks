@@ -65,6 +65,10 @@ A horizontal bar chart identifying category/purpose with the highest number of s
 #### 4. Weather Condition Impact
 A horizontal bar graph of the safety score relation to the two weather conditions, VMC (Visual Meteorological Conditions) vs IMC (Instrument Meteorological Conditions).
 ![Weather Condition Impact](./images/weather_conditions.png)
+
+#### INTERACTIVE EXECUTIVE DASHBOARD
+[View Interactive Executive Dashboard](https://public.tableau.com/app/profile/david.amos/viz/AIRCRAFT_RISK_ANALYSIS/EXECUTIVESUMMARY?publish=yes)
+
 ## Conclusion
 
 ### Summary of Conclusions
